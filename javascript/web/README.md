@@ -16,6 +16,10 @@ Uses [express](https://expressjs.com/) to expose an HTML interface and accept in
 ![Edge empty](screenshots/windows-empty-edge.png)
 ![Edge full](screenshots/windows-full-edge.png)
 
+### Mac OS & Old Safari
+![Old Safari empty](screenshots/macos-empty-safari-old.png)
+![Old Safari full](screenshots/macos-full-safari-old.png)
+
 ## Metrics
 
 - Lines of code: **174** (counted naïvely)

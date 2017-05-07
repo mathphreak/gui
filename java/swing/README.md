@@ -8,6 +8,10 @@ It's Swing.
 ![empty](screenshots/windows-empty.png)
 ![full](screenshots/windows-full.png)
 
+### Mac OS
+![empty](screenshots/macos-empty.png)
+![full](screenshots/macos-empty.png)
+
 ## Metrics
 
 - Lines of code: **131** (counted naïvely)
