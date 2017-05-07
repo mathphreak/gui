@@ -14,17 +14,16 @@ Every example should use several different widget types, compile and run on Wind
 
 ## completed
 
-- [c++/wxWidgets](cpp/wx/)
+- [C++/wxWidgets](cpp/wx/)
 - [javascript/web](javascript/web/)
 
 ## in progress
 
-- [c++/QML](cpp/qml/)
+- [C++/QML](cpp/qml/)
 
 ## pending
 
-- c++/Qt
-- c++/wxWidgets
+- C++/Qt
 - java/Swing
 - javascript/Electron
 - python/tk
