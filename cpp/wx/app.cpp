@@ -130,6 +130,8 @@ void MyFrame::OnSpin(wxCommandEvent &) {
     cout << "Spinner spun to " << spinner->GetValue() << endl;
 }
 
+#ifdef _WIN32
 int main() {
     WinMain(NULL, NULL, NULL, 0);
 }
+#endif

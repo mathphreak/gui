@@ -8,6 +8,10 @@ It's wxWidgets.
 ![empty](screenshots/windows-empty.png)
 ![full](screenshots/windows-full.png)
 
+### Mac OS
+![empty](screenshots/macos-empty.png)
+![full](screenshots/macos-full.png)
+
 ## Metrics
 
 - Lines of code: **135** (counted naïvely)
