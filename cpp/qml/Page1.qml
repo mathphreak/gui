@@ -7,7 +7,6 @@ Page1Form {
 
     comboBox.onCurrentTextChanged: {
         console.log("Combo Box Changed. Selected item: " + comboBox.currentText);
-        console.log("BS:", listView.model.count);
     }
 
     checkBox.onCheckedChanged: {

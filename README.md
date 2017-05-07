@@ -12,6 +12,10 @@ Every example should use several different widget types, compile and run on Wind
 - idle RAM usage
 - executable size
 
+## completed
+
+- [javascript/web](javascript/web/)
+
 ## in progress
 
 - [c++/QML](cpp/qml/)

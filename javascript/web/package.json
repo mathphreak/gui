@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "@mathphreak/gui-web-js",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Matt Horn",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "opn": "^5.0.0"
+  },
+  "devDependencies": {
+    "pkg": "^3.0.3",
+    "xo": "^0.18.2"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "node server.js",
+    "pkg": "pkg server.js --out-dir dist"
+  },
+  "xo": {
+    "space": 2
+  }
+}
