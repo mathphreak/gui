@@ -24,7 +24,7 @@ Uses [express](https://expressjs.com/) to expose an HTML interface and accept in
   - `npm start`: **3.016882 s**
   - `node server.js`: **1.007301 s**
 - Idle RAM usage: (measured by Windows on a system under normal load)
-  - Server + Windows Chrome: **17,756 K** + **29,940 K**
-  - Server + Windows Firefox: **17,756 K** + **26,816 K**
-  - Server + Windows Edge: **17,756 K** + **27,432 K**
+  - Server + Windows Chrome: **47,696 K** (**17,756 K** + **29,940 K**)
+  - Server + Windows Firefox: **44,572 K** (**17,756 K** + **26,816 K**)
+  - Server + Windows Edge: **45,188 K** (**17,756 K** + **27,432 K**)
 - Executable size: **19.0 MB** (measured by Windows, created with [pkg](https://github.com/zeit/pkg))
