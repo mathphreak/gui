@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "@mathphreak/gui-electron-js",
+  "version": "1.0.0",
+  "main": "host.js",
+  "author": "Matt Horn",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.4.15",
+    "electron-packager": "^8.7.0",
+    "xo": "^0.18.2"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "pkg": "electron-packager . app"
+  },
+  "xo": {
+    "space": 2
+  }
+}

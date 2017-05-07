@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+  <title>GUI Sample Application</title>
+  <style>
+    html {
+      width: 100%;
+      height: 100%;
+      font-family: system, sans-serif;
+    }
+    .row {
+      width: 100%;
+      display: flex;
+    }
+    .row > :not(.grow) {
+      flex: none;
+    }
+    .row > .grow {
+      flex: 1;
+    }
+    
+    .list {
+      overflow-y: scroll;
+      max-height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <p>Text &amp; Button</p>
+    <div class="row">
+      <input class="grow" type="text" placeholder="Text Field" />
+      <button type="button" id="textButton">Press Me</button>
+    </div>
+    <p>Combo Box</p>
+    <div class="row">
+      <select class="grow" id="combo">
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+      </select>
+    </div>
+    <p>Basic Input Widgets</p>
+    <div class="row">
+      <label>
+        <input type="checkbox" />
+        Check Box
+      </label>
+      <label>
+        <input type="radio" name="onetwo" value="One" />
+        One
+      </label>
+      <label>
+        <input type="radio" name="onetwo" value="Two" />
+        Two
+      </label>
+      <input type="range" class="grow" />
+      <input type="number" min="0" step="1" value="0" />
+    </div>
+    <p>Scrollable List</p>
+    <div class="row">
+      <div class="list grow">
+        <p>A</p>
+        <p>B</p>
+        <p>C</p>
+        <p>D</p>
+        <p>E</p>
+        <p>F</p>
+        <p>G</p>
+        <p>H</p>
+        <p>I</p>
+        <p>J</p>
+        <p>K</p>
+        <p>L</p>
+      </div>
+    </div>
+  </form>
+  <script src="index.js"></script>
+</body>
+</html>

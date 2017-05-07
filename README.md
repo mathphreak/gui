@@ -16,6 +16,7 @@ Every example should use several different widget types, compile and run on Wind
 
 - [C++/wxWidgets](cpp/wx/)
 - [java/Swing](java/swing/)
+- [javascript/Electron](javascript/electron/)
 - [javascript/web](javascript/web/)
 
 ## in progress
@@ -25,7 +26,6 @@ Every example should use several different widget types, compile and run on Wind
 ## pending
 
 - C++/Qt
-- javascript/Electron
 - python/tk
 - python/wxPython
 - ruby/tk
